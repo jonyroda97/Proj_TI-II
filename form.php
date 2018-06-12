@@ -2,10 +2,10 @@
 <html>
 <head>
   <title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="resources/style.css">
   <style>
    	body{
-        background-image: url(b.jpg);
+        background-image: url(resources/b.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     	}

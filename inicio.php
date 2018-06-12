@@ -4,7 +4,7 @@
     <style>
       body{
 
-        background-image: url(b.jpg);
+        background-image: url(resources/b.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         font-family: Verdana;
@@ -91,7 +91,7 @@
             </ul>
       </nav>
 
-  
+
 
   </body>
 </html>

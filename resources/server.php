@@ -20,7 +20,7 @@ if (isset($_POST['reg_user'])) {
 
   if (empty($username)) { array_push($errors, "Username tem de estar preenchido"); }
   if (empty($email)) { array_push($errors, "Email tem de estar preenchido"); }
-  if (empty($password_1)) { array_push($errors, "Password tem de estar prenchida"); }
+  if (empty($password_1)) { array_push($errors, "Password tem de estar preenchida"); }
   if ($password_1 != $password_2) {
   array_push($errors, "As passwords tem de ser iguais");
   }
@@ -84,10 +84,21 @@ if (isset($_POST['login_user'])) {
     $local = mysqli_real_escape_string($db, $_POST['local']);
     $zip = mysqli_real_escape_string($db, $_POST['zip']);
 
+    if (empty($prim)) { array_push($errors, "Primeiro Nome tem de estar preenchido"); }
+    if (empty($ult)) { array_push($errors, "Último Nome tem de estar preenchido"); }
+    if (empty($morada)) { array_push($errors, "Morada tem de estar preenchida"); }
+    if (empty($local)) { array_push($errors, "Localidade tem de estar preenchida"); }
+    if (empty($zip)) { array_push($errors, "Código Postal tem de estar preenchida"); }
 
-
-
-
+//incompleto
+    if (count($errors) == 0) {
+      $query = "INSERT INTO dados (prim, ult, morada, local, zip)
+      VALUES('$username', '$email', '$password')";
+      mysqli_query($db, $query);
+      $_SESSION['username'] = $username;
+      $_SESSION['success'] = "Esta conectado";
+      header('location: form.php');
+    }
   }
 
 ?>

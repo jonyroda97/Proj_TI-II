@@ -2,7 +2,7 @@
   <head>
     <style>
       body{
-        background-image: url(b.jpg);
+        background-image: url(resources/b.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         font-family: Verdana;
@@ -96,14 +96,14 @@
       </nav>
       <table align="center" border="1">
         <tr height=200>
-          <td width="200" colspan="1"><a href="pg.php"><img src = "g.jpg" width="200" height="200"></a></td>
-          <td width="200" colspan="1"><a href="ph.php"><img src = "H.jpg" width="200" height="200"></a></td>
-          <td width="200" colspan="1"><a href="pL.php"><img src = "L.jpg"  width="200" height="200"></a></td>
+          <td width="200" colspan="1"><a href="pg.php"><img src = "resources/g.jpg" width="200" height="200"></a></td>
+          <td width="200" colspan="1"><a href="ph.php"><img src = "resources/H.jpg" width="200" height="200"></a></td>
+          <td width="200" colspan="1"><a href="pL.php"><img src = "resources/L.jpg"  width="200" height="200"></a></td>
         </tr>
           <tr height=200>
-            <td width="200" colspan="1"><a href="pM.php"><img src = "M.jpg" width="200" height="200"></a></td>
-            <td width="200" colspan="1"><a href="pMaiorca.php"><img src = "Maiorca.jpg" width="200" height="200"></a></td>
-            <td width="200" colspan="1"><a href="pV.php"><img src = "V.jpg" width="200" height="200"></a></td>
+            <td width="200" colspan="1"><a href="pM.php"><img src = "resources/M.jpg" width="200" height="200"></a></td>
+            <td width="200" colspan="1"><a href="pMaiorca.php"><img src = "resources/Maiorca.jpg" width="200" height="200"></a></td>
+            <td width="200" colspan="1"><a href="pV.php"><img src = "resources/V.jpg" width="200" height="200"></a></td>
           </tr>
       </table>
   </body>

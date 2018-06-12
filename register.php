@@ -1,12 +1,12 @@
-<?php include('server.php') ?>
+<?php include('resources/server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
   <title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="resources/style.css">
   <style>
    	body{
-        background-image: url(b.jpg);
+        background-image: url(resources/b.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     	}
@@ -19,7 +19,7 @@
   </div>
 
   <form method="post" action="register.php">
-  	<?php include('errors.php'); ?>
+  	<?php include('resources/errors.php'); ?>
 
   	<div class="input-group">
   	  <label>Username</label>
