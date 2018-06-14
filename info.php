@@ -71,7 +71,9 @@ body{
   color: black;
   transition: 0.9s;
 }
-
+table{
+      margin-top: 8%;
+}
 
 }
   </style>
@@ -97,6 +99,36 @@ body{
             </ul>
       </nav>
     </header>
+    <table align="center" border="1">
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Username</td>
+        <td width="200" colspan="1"></td>
+        </tr>
+        <tr height=50>
+          <td width="200" align="center" colspan="1">Email</td>
+          <td width="200" colspan="1"></td>
+          </tr>
+          <tr height=50>
+            <td width="200" align="center" colspan="1">Primeiro Nome</td>
+            <td width="200" colspan="1"></td>
+            </tr>
+            <tr height=50>
+              <td width="200" align="center" colspan="1">Último Nome</td>
+              <td width="200" colspan="1"></td>
+              </tr>
+              <tr height=50>
+                <td width="200" align="center" colspan="1">Localidade</td>
+                <td width="200" colspan="1"></td>
+                </tr>
+                <tr height=50>
+                  <td width="200" align="center" colspan="1">Morada</td>
+                  <td width="200" colspan="1"></td>
+                  </tr>
+                  <tr height=50>
+                    <td width="200" align="center" colspan="1">Código Postal</td>
+                    <td width="200" colspan="1"></td>
+                    </tr>
 
+      <table>
 </body>
 </html>
