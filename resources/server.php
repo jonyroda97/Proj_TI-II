@@ -90,14 +90,12 @@ if (isset($_POST['login_user'])) {
     if (empty($local)) { array_push($errors, "Localidade tem de estar preenchida"); }
     if (empty($zip)) { array_push($errors, "Código Postal tem de estar preenchida"); }
 
-//incompleto
     if (count($errors) == 0) {
       $query = "INSERT INTO dados (prim, ult, morada, local, zip)
-      VALUES('$username', '$email', '$password')";
+      VALUES('$prim', '$ult', '$morada', '$local', '$zip')";
       mysqli_query($db, $query);
-      $_SESSION['username'] = $username;
-      $_SESSION['success'] = "Esta conectado";
-      header('location: form.php');
+      header('location: inicio2.php');
+
     }
   }
 
