@@ -58,6 +58,9 @@
         margin: 0;
         position: absolute; top: 100%;
       }
+      table{
+            margin-top: 2%;
+      }
       .menu ul ul li{
         float: none;
         position: relative;
@@ -94,20 +97,21 @@
             </ul>
         </ul>
     </nav>
-      <TABLE align="center"  border=0>
-        <tr height=100>
-          <TH><font size="20"> Grecia</font> </TH>
-        </TR>
+
+    <TABLE align="center"  border=0>
+      <tr height=100>
+        <TH><font size="20"> Marrocos  </font> </TH>
+      <TR>
         <tr height=200>
-          <td width="500">As ilhas gregas são uma optima opção de férias.
-                          O clima na Grécia é sensacional e as praias lindas de água azul-turquesa são incomparáveis.
-                          As paisagens típicas e as belas ruínas da antiguidade dão todo o charme dessas terras!!!
-                          Na verdade não é todo dia que estamos de frente para construções ou ruínas de mais de 3.000 anos de idade!!!!
-                          Se voce está interessado em férias que misturem todas essas opções de lazer, relax, cultura e vida noturna,
-                          já encontrou a próxima parada! Escolha as ilhas que mais combinam com voce e BOA VIAGEM!!!</td>
-        </TR>
+       <td width="500">As principais cidades marroquinas são Rabat (capital),
+   Casablanca, Tânger, Marraquexe, Fez, Meknes, Agadir, Tetuão, Ouarzazate e
+   Oujda.Clima temperado mediterrânico no Norte e Centro (Norte mais fresco e
+   húmido); semi-árido e desértico no Sul.As línguas oficiais são o árabe padrão
+   e o amazigue, sendo o francês também utilizado.A moeda marroquina é o Dirham,
+   dividido em 100 cêntimos. Está a espera de que para marcar a sua viagem? Marque ja,
+   e venha conhecer as maravilhas que marrocos guarda para si.BOA VIAGEM!!!</td>
+    </TR>
 
-      </TABLE>
-
-    </body>
-</html>
+    </TABLE>
+</body>
+</htmL>

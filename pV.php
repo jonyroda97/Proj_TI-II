@@ -58,6 +58,9 @@
         margin: 0;
         position: absolute; top: 100%;
       }
+      table{
+            margin-top: 2%;
+      }
       .menu ul ul li{
         float: none;
         position: relative;
@@ -94,20 +97,21 @@
             </ul>
         </ul>
     </nav>
-      <TABLE align="center"  border=0>
-        <tr height=100>
-          <TH><font size="20"> Grecia</font> </TH>
-        </TR>
-        <tr height=200>
-          <td width="500">As ilhas gregas são uma optima opção de férias.
-                          O clima na Grécia é sensacional e as praias lindas de água azul-turquesa são incomparáveis.
-                          As paisagens típicas e as belas ruínas da antiguidade dão todo o charme dessas terras!!!
-                          Na verdade não é todo dia que estamos de frente para construções ou ruínas de mais de 3.000 anos de idade!!!!
-                          Se voce está interessado em férias que misturem todas essas opções de lazer, relax, cultura e vida noturna,
-                          já encontrou a próxima parada! Escolha as ilhas que mais combinam com voce e BOA VIAGEM!!!</td>
-        </TR>
 
-      </TABLE>
-
-    </body>
-</html>
+    <TABLE align="center"  border=0>
+    <tr height=100>
+      <TH><font size="20"> Veneza </font> </TH>
+    <TR>
+      <tr height=200>
+     <td width="500"=>Com as suas gôndolas, canais, restaurantes fantásticos é o
+     ambiente romântico inesquecível, Veneza é, sem dúvida, um local a visitar.Os
+     palácios, mansões e igrejas à beira de água fazem com que, ao descer o Grande Canal,
+     se tenha a sensação de se navegar dentro de uma pintura. Para desfrutar verdadeiramente
+     de Veneza, tem de ir à ópera ou a um espetáculo de música clássica, degustar massa fresca
+     e pastelaria e vaguear pelas salas de uma galeria de arte. Os apreciadores de marcas famosas
+     irão adorar as lojas sofisticadas da Praça de São Marcos. Ficou curioso? Está á espera de que
+     marcar ja a sua viagem? Marque ja e faça BOA VIAGEM na nossa companhia!!!</td>
+    </TR>
+  </TABLE>
+</body>
+</htmL>

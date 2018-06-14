@@ -58,6 +58,9 @@
         margin: 0;
         position: absolute; top: 100%;
       }
+      table{
+            margin-top: 2%;
+      }
       .menu ul ul li{
         float: none;
         position: relative;
@@ -94,20 +97,24 @@
             </ul>
         </ul>
     </nav>
-      <TABLE align="center"  border=0>
-        <tr height=100>
-          <TH><font size="20"> Grecia</font> </TH>
-        </TR>
-        <tr height=200>
-          <td width="500">As ilhas gregas são uma optima opção de férias.
-                          O clima na Grécia é sensacional e as praias lindas de água azul-turquesa são incomparáveis.
-                          As paisagens típicas e as belas ruínas da antiguidade dão todo o charme dessas terras!!!
-                          Na verdade não é todo dia que estamos de frente para construções ou ruínas de mais de 3.000 anos de idade!!!!
-                          Se voce está interessado em férias que misturem todas essas opções de lazer, relax, cultura e vida noturna,
-                          já encontrou a próxima parada! Escolha as ilhas que mais combinam com voce e BOA VIAGEM!!!</td>
-        </TR>
 
-      </TABLE>
+<TABLE align="center"  border=0>
+  <tr height=100>
+    <TH><font size="20"> Hawaii</font> </TH>
+  <TR>
+    <tr height=200>
+   <td width="500">O ar fresco e floral, paisagens únicas e as águas quentes e tranquilas são o sonho de qualquer viajante,
+   e a beleza natural é de cortar a respiração. Não há lugar no mundo como o Havai!… As seis ilhas são excepcionais e oferecem
+   experiências distintas que seduzem qualquer viajante. Convidamo-lo a explorar as ilhas havaianas e a descobrir uma experiência
+   de viagem ideal com a Malagueta.
+   Descubra porque as seis ilhas do Aloha são a casa de tesouros inesquecíveis: os penhascos de Kauai, as praias fantásticas
+   de Waikiki em Oahu, os quilómetros de areias brancas de Papohaku em Molokai, os golfinhos de Lanai e a cúpula do Haleakala
+   em Maui…
+   Destino de Sonho!…
+   Férias no Havai são sinónimo de praia, um verde luxuriante e de ar puro, numa simbiose perfeita entre natureza e lazer, que
+   marcam toda a família!BOA VIAGEM!</td>
+</TR>
 
-    </body>
-</html>
+</TABLE>
+</body>
+</htmL>
