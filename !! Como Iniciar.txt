@@ -1,5 +1,7 @@
 create database registration;
 
+use registration;
+
 create table users(
 id int not null auto_increment,
 username varchar(50) not null,
