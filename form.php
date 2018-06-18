@@ -39,6 +39,10 @@
   	  <label>Código Postal</label>
   	  <input type="text" name="zip">
   	</div>
+    <div class="input-group">
+  	  <label>Número Telemóvel</label>
+  	  <input type="text" name="zip">
+  	</div>
   	<div class="input-group">
   	  <button type="submit" class="btn" name="sub">Submeter</button>
   	</div>

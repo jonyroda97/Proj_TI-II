@@ -89,7 +89,6 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
-          <li><a href="historico.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -111,7 +110,9 @@
    dividido em 100 cêntimos. Está a espera de que para marcar a sua viagem? Marque ja,
    e venha conhecer as maravilhas que marrocos guarda para si.BOA VIAGEM!!!</td>
     </TR>
-
+    <tr>
+      <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+    </tr>
     </TABLE>
 </body>
 </htmL>

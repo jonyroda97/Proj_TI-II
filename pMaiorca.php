@@ -89,7 +89,6 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
-          <li><a href="historico.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -111,6 +110,9 @@
     Se ficou interessado/a neste destino esta a espera de que? Marque ja a sua viagem e desfrute
     de momentos unicos.BOA VIAGEM!!!</td>
     </TR>
+    <tr>
+      <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+    </tr>
   </TABLE>
 </body>
 </htmL>

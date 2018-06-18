@@ -89,7 +89,6 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
-          <li><a href="historico.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -114,7 +113,9 @@
    Férias no Havai são sinónimo de praia, um verde luxuriante e de ar puro, numa simbiose perfeita entre natureza e lazer, que
    marcam toda a família!BOA VIAGEM!</td>
 </TR>
-
+<tr>
+  <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+</tr>
 </TABLE>
 </body>
 </htmL>

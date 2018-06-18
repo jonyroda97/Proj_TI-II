@@ -89,7 +89,6 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
-          <li><a href="historico.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -113,7 +112,9 @@
       viajar nestes períodos é aconselhável fazer a reserva da viagem com a maior antecedência
       possível para garantir preços mais em conta.BOA VIAGEM</td>
     </TR>
-
+    <tr>
+      <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+    </tr>
     </TABLE>
 </body>
 </htmL>

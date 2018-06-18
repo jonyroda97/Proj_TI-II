@@ -89,7 +89,6 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
-          <li><a href="historico.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -112,6 +111,9 @@
      irão adorar as lojas sofisticadas da Praça de São Marcos. Ficou curioso? Está á espera de que
      marcar ja a sua viagem? Marque ja e faça BOA VIAGEM na nossa companhia!!!</td>
     </TR>
+    <tr>
+      <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+    </tr>
   </TABLE>
 </body>
 </htmL>

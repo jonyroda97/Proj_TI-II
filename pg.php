@@ -86,7 +86,6 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
-          <li><a href="historico.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -96,7 +95,7 @@
     </nav>
       <TABLE align="center"  border=0>
         <tr height=100>
-          <TH><font size="20"> Grecia</font> </TH>
+          <TH><font size="20"> Grécia</font> </TH>
         </TR>
         <tr height=200>
           <td width="500">As ilhas gregas são uma optima opção de férias.
@@ -106,6 +105,9 @@
                           Se voce está interessado em férias que misturem todas essas opções de lazer, relax, cultura e vida noturna,
                           já encontrou a próxima parada! Escolha as ilhas que mais combinam com voce e BOA VIAGEM!!!</td>
         </TR>
+        <tr>
+          <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+        </tr>
 
       </TABLE>
 
