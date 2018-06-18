@@ -85,7 +85,6 @@
                 <li><a href="guialocais.php">Destinos</a></li>
               </ul>
             <li><a href="contactos.php">Contactos</a></li>
-            <li><a href="historico.php">Sobre nós</a></li>
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
