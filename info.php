@@ -78,7 +78,6 @@ table{
 }
   </style>
 </head>
-
   <body>
     <header>
       <nav>
@@ -89,51 +88,55 @@ table{
               <ul>
                 <li><a href="guialocais.php">Destinos</a></li>
               </ul>
+            </li>
             <li><a href="contactos.php">Contactos</a></li>
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
                 <li><a href="inicio.php">Logout</a></li>
               </ul>
+            </li>
           </ul>
       </nav>
     </header>
+
     <table align="center" border="1">
       <tr height=50>
         <td width="200" align="center" colspan="1">Username</td>
         <td width="200" colspan="1"></td>
-        </tr>
-        <tr height=50>
-          <td width="200" align="center" colspan="1">Email</td>
-          <td width="200" colspan="1"></td>
-          </tr>
-          <tr height=50>
-            <td width="200" align="center" colspan="1">Primeiro Nome</td>
-            <td width="200" colspan="1"></td>
-            </tr>
-            <tr height=50>
-              <td width="200" align="center" colspan="1">Último Nome</td>
-              <td width="200" colspan="1"></td>
-              </tr>
-              <tr height=50>
-                <td width="200" align="center" colspan="1">Localidade</td>
-                <td width="200" colspan="1"></td>
-                </tr>
-                <tr height=50>
-                  <td width="200" align="center" colspan="1">Morada</td>
-                  <td width="200" colspan="1"></td>
-                  </tr>
-                  <tr height=50>
-                    <td width="200" align="center" colspan="1">Código Postal</td>
-                    <td width="200" colspan="1"></td>
-                    </tr>
-                    <tr height=50>
-                      <td width="200" align="center" colspan="1">Número de Telemóvel</td>
-                      <td width="200" colspan="1"></td>
-                      </tr>
-                      <tr>
-                        <td align="center"><a href=".php">Atualizar Informações</a></td>
-                        <td align="center"><a href=".php">Eleminar Conta</a></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Email</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Primeiro Nome</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Último Nome</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Número de Telemóvel</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Localidade</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Morada</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr height=50>
+        <td width="200" align="center" colspan="1">Código Postal</td>
+        <td width="200" colspan="1"></td>
+      </tr>
+      <tr>
+        <td align="center"><a href=".php">Atualizar Informações</a></td>
+        <td align="center"><a href=".php">Eliminar Conta</a></td>
+      </tr>
 
       </table>
 </body>

@@ -27,6 +27,10 @@
   	  <label>Último Nome</label>
   	  <input type="text" name="ult">
   	</div>
+    <div class="input-group">
+  	  <label>Número Telemóvel</label>
+  	  <input type="text" name="telm">
+  	</div>
   	<div class="input-group">
   	  <label>Morada</label>
   	  <input type="text" name="morada">
@@ -37,10 +41,6 @@
   	</div>
     <div class="input-group">
   	  <label>Código Postal</label>
-  	  <input type="text" name="zip">
-  	</div>
-    <div class="input-group">
-  	  <label>Número Telemóvel</label>
   	  <input type="text" name="zip">
   	</div>
   	<div class="input-group">

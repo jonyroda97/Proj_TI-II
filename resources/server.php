@@ -20,6 +20,10 @@ if (isset($_POST['reg_user'])) {
 
   if (empty($username)) { array_push($errors, "Username tem de estar preenchido"); }
   if (empty($email)) { array_push($errors, "Email tem de estar preenchido"); }
+
+  //é para pôr??
+  if(filter_var($email, FILTER_VALIDATE_EMAIL) == false){array_push($errors, "Email inválido");}
+
   if (empty($password_1)) { array_push($errors, "Password tem de estar preenchida"); }
   if ($password_1 != $password_2) {
   array_push($errors, "As passwords tem de ser iguais");
@@ -80,22 +84,23 @@ if (isset($_POST['login_user'])) {
   if(isset($_POST['sub'])){
     $prim = mysqli_real_escape_string($db, $_POST['prim']);
     $ult = mysqli_real_escape_string($db, $_POST['ult']);
+    $telm = mysqli_real_escape_string($db, $_POST['telm']);
     $morada = mysqli_real_escape_string($db, $_POST['morada']);
     $local = mysqli_real_escape_string($db, $_POST['local']);
     $zip = mysqli_real_escape_string($db, $_POST['zip']);
 
     if (empty($prim)) { array_push($errors, "Primeiro Nome tem de estar preenchido"); }
     if (empty($ult)) { array_push($errors, "Último Nome tem de estar preenchido"); }
+    if (empty($telm)) { array_push($errors, "Número de Telemóvel tem de estar preenchida"); }
     if (empty($morada)) { array_push($errors, "Morada tem de estar preenchida"); }
     if (empty($local)) { array_push($errors, "Localidade tem de estar preenchida"); }
     if (empty($zip)) { array_push($errors, "Código Postal tem de estar preenchida"); }
 
     if (count($errors) == 0) {
-      $query = "INSERT INTO dados (prim, ult, morada, local, zip)
-      VALUES('$prim', '$ult', '$morada', '$local', '$zip')";
+      $query = "INSERT INTO dados (prim, ult, telm, morada, local, zip)
+      VALUES('$prim', '$ult', '$telm', '$morada', '$local', '$zip')";
       mysqli_query($db, $query);
       header('location: inicio2.php');
-
     }
   }
 
