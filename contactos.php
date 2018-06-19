@@ -76,7 +76,6 @@
     </style>
   </head>
   <body>
-
     <nav>
       <div class="menu">
         <ul>
@@ -85,12 +84,14 @@
             <ul>
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
+          </li>
           <li><a href="contactos.php">Contactos</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
               <li><a href="inicio.php">Logout</a></li>
             </ul>
+          </li>
         </ul>
     </nav>
 
@@ -109,7 +110,10 @@
           </tr>
           <tr height=50>
             <td width="200" align="center" colspan="1">Localização</td>
+
+            //Falta imagem mas se calhar colocamos um <embed> do mapa da google?
             <td width="200" colspan="1"><img src = "resources/Captura de Ecrã (2).png" width="200" height="200"></td>
+
           </tr>
 
 

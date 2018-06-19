@@ -84,12 +84,18 @@
               <ul>
                 <li><a href="guialocais.php">Destinos</a></li>
               </ul>
+            </li>
             <li><a href="contactos.php">Contactos</a></li>
+
+            //Eliminado sem querer??
+            <li><a href="historico.php">Sobre nós</a></li>
+
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
                 <li><a href="inicio.php">Logout</a></li>
               </ul>
+            </li>
           </ul>
       </nav>
 

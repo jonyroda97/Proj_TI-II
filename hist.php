@@ -89,24 +89,25 @@
             <ul>
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
+          </li>
           <li><a href="contactos.php">Contactos</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
               <li><a href="inicio.php">Logout</a></li>
             </ul>
-
+          </li>
         </ul>
     </nav>
       <TABLE align="center"  border=0>
         <tr height=100>
-          <TH><font size="20">Quem nos somos</font> </TH>
+          <TH><font size="20">Quem nós somos</font> </TH>
         </TR>
         <tr height=200>
           <td width="500">A viagem Cegonha é uma agência de viagens fundada em 1840
-          na cidade de Lisboa, Portugal.Atualmente é considerada a mais antiga da sua
+          na cidade de Lisboa, Portugal. Atualmente é considerada a mais antiga da sua
           indústria a nível mundial, sendo além disso, a empresa de maior dimensão
-          que opera no setor de viagens e turismo em Portugal.Além das mais de 140
+          que opera no setor de viagens e turismo em Portugal. Além das mais de 140
           lojas em Portugal e nas ilhas da Madeira e Açores, também atua em países como
           Angola, Brasil, Espanha, Inglaterra e Estados Unidos.</td>
         </TR>
