@@ -41,7 +41,7 @@
   	  <button type="submit" class="btn" name="reg_user">Registar</button>
   	</div>
   	<p>
-  		Já tem conta? <a href="login.php">Entar</a> &ensp;
+  		Já tem conta? <a href="login.php">Entrar</a> &ensp;
   		Página inicial <a href="inicio.php">voltar</a>
   	</p>
   </form>
