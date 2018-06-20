@@ -93,10 +93,14 @@
               </ul>
             </ul>
       </nav>
-      <table align="center" border="0">
-        <tr height=200>
-          <td width="200" colspan="1"><img src = "resources/logo.png" width="200" height="200"></td>
 
+      <table align="center" border="0">
+        <tr height="200">
+          <td width="200">
+            <img src = "resources/logo.png" width="200" height="200">
+          </td>
+        </tr>
+      </table>
 
   </body>
 </html>

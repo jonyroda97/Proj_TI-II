@@ -72,6 +72,9 @@
         color: black;
         transition: 0.9s;
       }
+      table{
+        margin-top: 8%;
+      }
     </style>
   </head>
   <body>
@@ -85,6 +88,7 @@
                 <li><a href="guialocais.php">Destinos</a></li>
               </ul>
             <li><a href="contactos.php">Contactos</a></li>
+            <li><a href="hist.php">Sobre nós</a></li>
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
@@ -93,6 +97,13 @@
           </ul>
       </nav>
 
-
+      <table align="center" border="0">
+        <tr height=200>
+          <td width="200" colspan="1">
+            <img src = "resources/logo.png" width="200" height="200">
+          </td>
+        </tr>
+      </table>
+      
   </body>
 </html>
