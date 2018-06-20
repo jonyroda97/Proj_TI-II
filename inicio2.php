@@ -93,7 +93,7 @@
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
-                <li><a href="inicio.php">Logout</a></li>
+                <li><a href="resources/Logout.php">Logout</a></li>
               </ul>
             </li>
           </ul>
