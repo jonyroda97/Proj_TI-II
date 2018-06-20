@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <style>
@@ -89,7 +89,7 @@
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
-              <li><a href="resources/Logout.php">Logout</a></li>
+              <li><a href="inicio.php">Logout</a></li>
             </ul>
           </li>
         </ul>
@@ -111,10 +111,12 @@
           <tr height=50>
             <td width="200" align="center" colspan="1">Localização</td>
 
-            //Falta imagem mas se calhar colocamos um <embed> do mapa da google?
-            <td width="200" colspan="1"><img src = "resources/Captura de Ecrã (2).png" width="200" height="200"></td>
-
-          </tr>
+            <td>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="400"
+                id="gmap_canvas" src="https://maps.google.com/maps?q=istec&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.webdesign-muenchen-pb.de"></a></div><style>.mapouter{text-align:right;height:400px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style></div></td>
+            </tr>
 
 
           </tr>

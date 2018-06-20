@@ -73,6 +73,18 @@
         color: black;
         transition: 0.9s;
       }
+
+
+    .button {
+         background-color: #008CBA; /* Blue */
+         border: none;
+         color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+}
     </style>
   </head>
   <body>
@@ -89,7 +101,7 @@
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
-              <li><a href="resources/Logout.php">Logout</a></li>
+              <li><a href="inicio.php">Logout</a></li>
             </ul>
         </ul>
     </nav>
@@ -104,9 +116,12 @@
                           Na verdade não é todo dia que estamos de frente para construções ou ruínas de mais de 3.000 anos de idade!!!!
                           Se voce está interessado em férias que misturem todas essas opções de lazer, relax, cultura e vida noturna,
                           já encontrou a próxima parada! Escolha as ilhas que mais combinam com voce e BOA VIAGEM!!!</td>
-        </TR>
+        </tr>
+
         <tr>
-          <td align="center"><a href="comprabilhete.php">Comprar bilhete </a></td>
+          <td align="center">
+            <input style="margin-top:30px" type="submit" class="button button-medium button-primary" value="comprar bilhete">
+          </td>
         </tr>
 
       </TABLE>
