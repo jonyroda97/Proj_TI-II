@@ -77,18 +77,19 @@
         transition: 0.9s;
       }
       .button {
-           background-color: #008CBA; /* Blue */
-           border: none;
-           color: white;
-           padding: 15px 32px;
-           text-align: center;
-           text-decoration: none;
-           display: inline-block;
-           font-size: 16px;
+        background-color: #008CBA; /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
     </style>
   </head>
-  <body>
 
+  <body>
     <nav>
       <div class="menu">
         <ul>
@@ -98,6 +99,7 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
+          <li><a href="hist.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -106,24 +108,28 @@
         </ul>
     </nav>
 
-    <TABLE align="center"  border=0>
-  <tr height=100>
-    <TH><font size="20"> Maiorca </font> </TH>
-  <TR>
-    <tr height=200>
-   <td width="500">Sugestões para umas ótimas férias em Maiorca, incluindo praias,
-    atrações e monumentos que não pode perder. Maiorca é um destino agradável
-    em qualquer altura do ano. Se é a praia o que mais o atrai, então o mais seguro é visitar
-    a ilha entre maio e setembro, onde há menor precipitação e temperaturas mais alta.É também
-    nesta altura que a água do mar é mais convidativa.O catalão é considerada a língua nativa.
-    Se ficou interessado/a neste destino esta a espera de que? Marque ja a sua viagem e desfrute
-    de momentos unicos.BOA VIAGEM!!!</td>
-    </TR>
-    <tr>
-      <td align="center">
-        <input style="margin-top:30px" type="submit" class="button button-medium button-primary" value="comprar bilhete">
-      </td>
-    </tr>
-  </TABLE>
-</body>
+    <TABLE align="center" border=0>
+      <tr height=100>
+        <th>
+          <font size="20">Maiorca</font>
+        </th>
+      </tr>
+      <tr height=200>
+        <td width="500">Sugestões para umas ótimas férias em Maiorca, incluindo praias,
+          atrações e monumentos que não pode perder. Maiorca é um destino agradável
+          em qualquer altura do ano. Se é a praia o que mais o atrai, então o mais seguro é visitar
+          a ilha entre maio e setembro, onde há menor precipitação e temperaturas mais alta.É também
+          nesta altura que a água do mar é mais convidativa.O catalão é considerada a língua nativa.
+          Se ficou interessado/a neste destino esta a espera de que? Marque ja a sua viagem e desfrute
+          de momentos unicos. BOA VIAGEM!!!
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <input style="margin-top:30px" type="submit" class="button button-medium button-primary" value="comprar bilhete">
+        </td>
+      </tr>
+    </table>
+  </body>
+
 </htmL>

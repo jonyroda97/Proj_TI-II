@@ -77,14 +77,15 @@
         transition: 0.9s;
       }
       .button {
-           background-color: #008CBA; /* Blue */
-           border: none;
-           color: white;
-           padding: 15px 32px;
-           text-align: center;
-           text-decoration: none;
-           display: inline-block;
-           font-size: 16px;
+        background-color: #008CBA; /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
     </style>
   </head>
   <body>
@@ -98,6 +99,7 @@
               <li><a href="guialocais.php">Destinos</a></li>
             </ul>
           <li><a href="contactos.php">Contactos</a></li>
+          <li><a href="hist.php">Sobre nós</a></li>
           <li><a>Minha Conta</a>
             <ul>
               <li><a href="info.php">Ver Prefil</a></li>
@@ -106,27 +108,29 @@
         </ul>
     </nav>
 
-<TABLE align="center"  border=0>
-  <tr height=100>
-    <TH><font size="20"> Hawaii</font> </TH>
-  <TR>
-    <tr height=200>
-   <td width="500">O ar fresco e floral, paisagens únicas e as águas quentes e tranquilas são o sonho de qualquer viajante,
-   e a beleza natural é de cortar a respiração. Não há lugar no mundo como o Havai!… As seis ilhas são excepcionais e oferecem
-   experiências distintas que seduzem qualquer viajante. Convidamo-lo a explorar as ilhas havaianas e a descobrir uma experiência
-   de viagem ideal com a Malagueta.
-   Descubra porque as seis ilhas do Aloha são a casa de tesouros inesquecíveis: os penhascos de Kauai, as praias fantásticas
-   de Waikiki em Oahu, os quilómetros de areias brancas de Papohaku em Molokai, os golfinhos de Lanai e a cúpula do Haleakala
-   em Maui…
-   Destino de Sonho!…
-   Férias no Havai são sinónimo de praia, um verde luxuriante e de ar puro, numa simbiose perfeita entre natureza e lazer, que
-   marcam toda a família!BOA VIAGEM!</td>
-</TR>
-<tr>
-  <td align="center">
-    <input style="margin-top:30px" type="submit" class="button button-medium button-primary" value="comprar bilhete">
-  </td>
-</tr>
-</TABLE>
-</body>
+    <table align="center" border=0>
+      <tr height=100>
+        <th>
+          <font size="20"> Hawaii</font>
+        </th>
+      <tr height=200>
+        <td width="500">O ar fresco e floral, paisagens únicas e as águas quentes e tranquilas são o sonho de qualquer viajante,
+          e a beleza natural é de cortar a respiração. Não há lugar no mundo como o Havai!… As seis ilhas são excepcionais e oferecem
+          experiências distintas que seduzem qualquer viajante. Convidamo-lo a explorar as ilhas havaianas e a descobrir uma experiência
+          de viagem ideal com a Malagueta.
+          Descubra porque as seis ilhas do Aloha são a casa de tesouros inesquecíveis: os penhascos de Kauai, as praias fantásticas
+          de Waikiki em Oahu, os quilómetros de areias brancas de Papohaku em Molokai, os golfinhos de Lanai e a cúpula do Haleakala
+          em Maui…
+          Destino de Sonho!…
+          Férias no Havai são sinónimo de praia, um verde luxuriante e de ar puro, numa simbiose perfeita entre natureza e lazer, que
+          marcam toda a família!BOA VIAGEM!
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <input style="margin-top:30px" type="submit" class="button button-medium button-primary" value="comprar bilhete">
+        </td>
+      </tr>
+    </table>
+  </body>
 </htmL>
