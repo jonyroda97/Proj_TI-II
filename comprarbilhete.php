@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="resources/style.css">
     <style>
       body{
         background-image: url(resources/b.jpg);
@@ -11,76 +12,18 @@
         margin: 0;
         line-height: 24px;
       }
-      .menu{
-        text-align: center;
-        width: 100%;
-        background: blue;
-        opacity: 0.7;
-      }
-      .menu ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        position: relative;
-      }
-      .menu ul li a{
-        display: block;
-        padding: 25px;
-        color: white;
-        text-decoration: none;
-        width: 150px;
-      }
-      .menu ul:after{
-        content: ""; clear: both;
-        display: block;
-      }
-      .menu ul li{
-        float: left;
-        list-style: none;
-      }
-      .menu ul ul{
-        display: none;
-      }
-      .menu ul li:hover > ul{
-        display: block;
-      }
-      .menu ul li:hover {
-        background: black;
-        transition: 0.9s;
-      }
-      .menu ul li:hover a{
-        color: white;
-      }
-      .menu ul ul{
-        background: black
-        padding: 0;
-        margin: 0;
-        position: absolute; top: 100%;
-      }
-      .menu ul ul li{
-        float: none;
-        position: relative;
-      }
-      .menu ul ul li a{
-        padding: 25px;
-        color: white;
-        width: 300px;
-        text-align: left;
-      }
-      .menu ul ul li a:hover{
-        background: lightblue;
-        color: black;
-        transition: 0.9s;
-      }
 
       /* Dropdown Button */
       .dropbtn {
           background-color: #008CBA;
-          color: white;
-          padding: 16px;
+          background: white;
+          color: black;
+          padding: 13px 5px;
           font-size: 16px;
-          border: none;
           cursor: pointer;
+          border: 1px solid gray;
+          border-radius: 5px;
+          width: 104%;
       }
 
       /* Dropdown button on hover & focus */
@@ -96,6 +39,7 @@
       .dropdown {
           position: relative;
           display: inline-block;
+          width: 93%;
       }
 
       /* Dropdown Content (Hidden by Default) */
@@ -133,23 +77,53 @@
 
 
   <body>
-    <div class="dropdown" height=156px>
-      <select class="dropbtn" id="ddl_example3" name="ddl_example3">
 
-        <option value="1">Grécia</option>
-
-        <option value="2">Hawaii</option>
-
-        <option value="3">Londres</option>
-
-        <option value="4">Marrocos</option>
-
-        <option value="5">Maiorca</option>
-
-        <option value="6">teVeneza</option>
-
-      </select>
+    <div class="header">
+    	<h2>Confirmação de Compra</h2>
     </div>
+
+    <form method="post" action="compra.php">
+      <div class="input-group">
+    	  <label>Primeiro Nome</label>
+    	  <input type="text" name="prim">
+    	</div>
+    	<div class="input-group">
+    	  <label>Último Nome</label>
+    	  <input type="text" name="ult">
+    	</div>
+      <div class="input-group">
+    	  <label>Número Telemóvel</label>
+    	  <input type="text" name="telm">
+    	</div>
+    	<div class="input-group">
+    	  <label>Morada</label>
+    	  <input type="text" name="morada">
+    	</div>
+    	<div class="input-group">
+    	  <label>Localidade</label>
+    	  <input type="text" name="local">
+    	</div>
+      <div class="input-group">
+    	  <label>Código Postal</label>
+    	  <input type="text" name="zip">
+    	</div>
+      <div class="input-group">
+        <div class="dropdown" height=156px>
+          <label>Viagem</label>
+          <select class="dropbtn" id="ddl_example3" name="ddl_example3">
+            <option value="1">Grécia</option>
+            <option value="2">Hawaii</option>
+            <option value="3">Londres</option>
+            <option value="4">Marrocos</option>
+            <option value="5">Maiorca</option>
+            <option value="6">Veneza</option>
+          </select>
+        </div>
+      </div>
+    	<div class="input-group">
+    	  <button type="submit" class="btn" name="sub">Submeter</button>
+    	</div>
+    </form>
 
     <script>
 

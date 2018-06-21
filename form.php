@@ -9,7 +9,6 @@
           background-repeat: no-repeat;
           background-size: cover;
       	}
-
       </style>
   </head>
   <body>
@@ -46,6 +45,5 @@
     	  <button type="submit" class="btn" name="sub">Submeter</button>
     	</div>
     </form>
-    
   </body>
 </html>
