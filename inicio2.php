@@ -72,6 +72,9 @@
         color: black;
         transition: 0.9s;
       }
+      table{
+        margin-top: 8%;
+      }
     </style>
   </head>
   <body>
@@ -84,30 +87,23 @@
               <ul>
                 <li><a href="guialocais.php">Destinos</a></li>
               </ul>
-            </li>
             <li><a href="contactos.php">Contactos</a></li>
-
-            //Eliminado sem querer??
-            <li><a href="historico.php">Sobre nós</a></li>
-
+            <li><a href="hist.php">Sobre nós</a></li>
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
-                <li><a href="inicio.php">Logout</a></li>
+                <li><a href="logout.php">Logout</a></li>
               </ul>
-            </li>
           </ul>
       </nav>
-      <TABLE>
-      <tr height=200>
-      <th><font size="100"><font face="Bradley Hand ITC"> "O melhor destino,encontra-se aqui"  </font> <br /></font></th>
-      <th></th>
-      <th></th>
-      <tr height=530  align="left"  border=3 >
-        <td width="50" ><a href="logo.png"><img src = "resources/logo.png" width="200" height="200"></a></td>
 
-    </TR>
-
+      <table align="center" border="0">
+        <tr height=200>
+          <td width="200" colspan="1">
+            <img src = "resources/logo.png" width="200" height="200">
+          </td>
+        </tr>
+      </table>
 
   </body>
 </html>

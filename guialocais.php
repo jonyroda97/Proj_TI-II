@@ -90,11 +90,11 @@
             <li><a>Minha Conta</a>
               <ul>
                 <li><a href="info.php">Ver Prefil</a></li>
-                <li><a href="inicio.php">Logout</a></li>
+                <li><a href="resources/Logout.php">Logout</a></li>
               </ul>
           </ul>
       </nav>
-      <table align="center" border="0">
+      <table align="center" border="1">
         <tr height=200>
           <td width="200" colspan="1"><a href="pg.php"><img src = "resources/g.jpg" width="200" height="200"></a></td>
           <td width="200" colspan="1"><a href="ph.php"><img src = "resources/H.jpg" width="200" height="200"></a></td>
