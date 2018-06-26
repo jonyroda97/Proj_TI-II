@@ -84,20 +84,14 @@
     <nav>
       <div class="menu">
         <ul>
-          <li><a href="inicio2.php">Inicio</a></li>
-          <li><a>Viajar</a>
+          <li><a href="inicio.php">Inicio</a></li>
+          <li><a href="hist.php">Sobre nós</a></li>
+          <li><a>Conta</a>
             <ul>
-              <li><a href="guialocais.php">Destinos</a></li>
+              <li><a href="register.php">Registar</a></li>
+              <li><a href="login.php">Login</a></li>
             </ul>
-          </li>
-          <li><a href="contactos.php">Contactos</a></li>
-          <li><a>Minha Conta</a>
-            <ul>
-              <li><a href="info.php">Ver Prefil</a></li>
-              <li><a href="resources/Logout.php">Logout</a></li>
-            </ul>
-          </li>
-        </ul>
+          </ul>
     </nav>
       <TABLE align="center"  border=0>
         <tr height=100>

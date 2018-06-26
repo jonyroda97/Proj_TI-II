@@ -73,6 +73,9 @@
         color: black;
         transition: 0.9s;
       }
+      table{
+            margin-top: 8%;
+      }
     </style>
   </head>
   <body>
@@ -81,8 +84,7 @@
         <div class="menu">
           <ul>
             <li><a href="inicio.php">Inicio</a></li>
-            <li><a href="contactos.php">Contactos</a></li>
-            <li><a href="historico.php">Sobre nós</a></li>
+            <li><a href="hist.php">Sobre nós</a></li>
             <li><a>Conta</a>
               <ul>
                 <li><a href="register.php">Registar</a></li>
@@ -90,15 +92,14 @@
               </ul>
             </ul>
       </nav>
-      <TABLE>
-          <tr height=200>
-          <th><font size="100"><font face="Bradley Hand ITC"> "O melhor destino,encontra-se aqui"  </font> <br /></font></th>
-          <th></th>
-          <th></th>
-      <tr height=530  align="left"  border=3 >
-      <td width="50" ><a href="logo.png"><img src = "resources/logo.png" width="200" height="200"></a></td>
 
-        </TR>
+      <table align="center" border="0">
+        <tr height="200">
+          <td width="200">
+            <img src = "resources/logo.png" width="200" height="200">
+          </td>
+        </tr>
+      </table>
 
   </body>
 </html>
