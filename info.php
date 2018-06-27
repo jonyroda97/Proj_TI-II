@@ -71,10 +71,9 @@ body{
   color: black;
   transition: 0.9s;
 }
-table{
+ table{
       margin-top: 8%;
 }
-
 }
   </style>
 </head>
@@ -99,45 +98,44 @@ table{
           </ul>
       </nav>
     </header>
+    <?php
+    include('resources/server.php');
+    $link = mysqli_connect("localhost", "root", "", "registration");
 
-    <table align="center" border="1">
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Username</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Email</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Primeiro Nome</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Último Nome</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Número de Telemóvel</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Localidade</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Morada</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr height=50>
-        <td width="200" align="center" colspan="1">Código Postal</td>
-        <td width="200" colspan="1"></td>
-      </tr>
-      <tr>
-        <td align="center"><a href=".php">Atualizar Informações</a></td>
-        <td align="center"><a href=".php">Eliminar Conta</a></td>
-      </tr>
+    // Check connection
+    if($link === false){
+        die("ERROR: Could not connect. " . mysqli_connect_error());
+    }
 
-      </table>
-</body>
+    // Attempt select query execution
+    $sql = "SELECT * FROM users WHERE  `username` = '".$_SESSION['username']."' ";
+    if($result = mysqli_query($link, $sql)){
+        if(mysqli_num_rows($result) > 0){
+            echo "<center><table>";
+                echo "<tr>";
+
+                    echo "<th>username</th>";
+                    echo "<th>email</th>";
+                echo "</tr>";
+            while($row = mysqli_fetch_array($result)){
+                echo "<tr>";
+                    
+                    echo "<td>" . $row['username'] . "</td>";
+                    echo "<td>" . $row['email'] . "</td>";
+                echo "</tr>";
+            }
+            echo "</center></table>";
+            // Free result set
+            mysqli_free_result($result);
+        } else{
+            echo "No records matching your query were found.";
+        }
+    } else{
+        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+    }
+
+    // Close connection
+    mysqli_close($link);
+    ?>
+
 </html>
