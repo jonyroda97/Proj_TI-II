@@ -94,8 +94,13 @@
       </nav>
 
       <table align="center" border="0">
-        <tr height="200">
-          <td width="200">
+        <tr height=200>
+          <th>
+            <font size="100" face="Bradley Hand ITC">"O melhor destino, encontra-se aqui"</font><br>
+          </th>
+        </tr>
+        <tr align="center">
+          <td width="200" colspan="1">
             <img src = "resources/logo.png" width="200" height="200">
           </td>
         </tr>

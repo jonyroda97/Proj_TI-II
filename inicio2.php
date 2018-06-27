@@ -87,6 +87,7 @@
               <ul>
                 <li><a href="guialocais.php">Destinos</a></li>
               </ul>
+            </li>
             <li><a href="contactos.php">Contactos</a></li>
             <li><a href="hist.php">Sobre nós</a></li>
             <li><a>Minha Conta</a>
@@ -94,11 +95,17 @@
                 <li><a href="info.php">Ver Prefil</a></li>
                 <li><a href="logout.php">Logout</a></li>
               </ul>
+            </li>
           </ul>
       </nav>
 
       <table align="center" border="0">
         <tr height=200>
+          <th>
+            <font size="100" face="Bradley Hand ITC">"O melhor destino, encontra-se aqui"</font><br>
+          </th>
+        </tr>
+        <tr align="center">
           <td width="200" colspan="1">
             <img src = "resources/logo.png" width="200" height="200">
           </td>
