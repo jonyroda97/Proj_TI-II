@@ -1,3 +1,4 @@
+<?php include('resources/server.php') ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,6 +18,7 @@
     </div>
 
     <form method="post" action="form.php">
+      <?php include('resources/errors.php'); ?>
       <div class="input-group">
     	  <label>Primeiro Nome</label>
     	  <input type="text" name="prim">
