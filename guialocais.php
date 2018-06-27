@@ -94,7 +94,7 @@
               </ul>
           </ul>
       </nav>
-      <table align="center" border="1">
+      <table align="center" border="0">
         <tr height=200>
           <td width="200" colspan="1"><a href="pg.php"><img src = "resources/g.jpg" width="200" height="200"></a></td>
           <td width="200" colspan="1"><a href="ph.php"><img src = "resources/H.jpg" width="200" height="200"></a></td>
