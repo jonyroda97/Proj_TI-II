@@ -19,10 +19,7 @@ if (isset($_POST['reg_user'])) {
 
   if (empty($username)) { array_push($errors, "Username tem de estar preenchido"); }
   if (empty($email)) { array_push($errors, "Email tem de estar preenchido"); }
-
-  //é para pôr??
   if(filter_var($email, FILTER_VALIDATE_EMAIL) == false)
-
   if (empty($password_1)) { array_push($errors, "Password tem de estar preenchida"); }
   if ($password_1 != $password_2) {
   array_push($errors, "As passwords tem de ser iguais");
@@ -100,6 +97,14 @@ if(isset($_POST['sub'])){
     mysqli_query($db, $query);
     header('location: inicio2.php');
   }
+
+  $_SESSION['prim'] = $prim;
+  $_SESSION['ult'] = $ult;
+  $_SESSION['telm'] = $telm;
+  $_SESSION['morada'] = $morada;
+  $_SESSION['local'] = $local;
+  $_SESSION['zip'] = $zip;
+
 }
 
 ?>

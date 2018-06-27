@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+  session_start();
+?>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="resources/style.css">
@@ -82,35 +85,37 @@
     	<h2>Confirmação de Compra</h2>
     </div>
 
-    <form method="post" action="compra.php">
+    <form method="post" action="inicio2.php">
       <div class="input-group">
     	  <label>Primeiro Nome</label>
-    	  <input type="text" name="prim">
+    	  <input type="text" name="prim" disabled value="<?php echo $_SESSION['prim'];?>">
     	</div>
     	<div class="input-group">
     	  <label>Último Nome</label>
-    	  <input type="text" name="ult">
+    	  <input type="text" name="ult" disabled value="<?php echo $_SESSION['ult'];?>">
     	</div>
+      <br>
       <div class="input-group">
     	  <label>Número Telemóvel</label>
-    	  <input type="text" name="telm">
+    	  <input type="text" name="telm" disabled value="<?php echo $_SESSION['telm'];?>">
     	</div>
     	<div class="input-group">
     	  <label>Morada</label>
-    	  <input type="text" name="morada">
+    	  <input type="text" name="morada" disabled value="<?php echo $_SESSION['morada'];?>">
     	</div>
     	<div class="input-group">
     	  <label>Localidade</label>
-    	  <input type="text" name="local">
+    	  <input type="text" name="local" disabled value="<?php echo $_SESSION['local'];?>">
     	</div>
       <div class="input-group">
     	  <label>Código Postal</label>
-    	  <input type="text" name="zip">
+    	  <input type="text" name="zip" disabled value="<?php echo $_SESSION['zip'];?>">
     	</div>
+      <br>
       <div class="input-group">
         <div class="dropdown" height=156px>
           <label>Viagem</label>
-          <select class="dropbtn" id="ddl_example3" name="ddl_example3">
+          <select class="dropbtn" id="dropbtn" name="dropbtn">
             <option value="1">Grécia</option>
             <option value="2">Hawaii</option>
             <option value="3">Londres</option>
@@ -127,13 +132,14 @@
 
     <script>
 
-      function setSelectedIndex(s, i){
-        s.options[i-1].selected = true;
+      var viagem = "<?php echo $_GET['viagem']; ?>";
+
+      function setSelectedIndex(s){
+        s.options[viagem-1].selected = true;
         return;
       }
 
-      setSelectedIndex(document.getElementById("ddl_example3"), $_GLOBALS['viagem']);
-      unset($_GLOBALS['viagem']);
+      setSelectedIndex(document.getElementById("dropbtn"));
 
     </script>
 

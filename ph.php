@@ -128,7 +128,7 @@
       </tr>
       <tr>
         <td align="center">
-          <a href="comprarbilhete.php">
+          <a href="comprarbilhete.php?viagem=2">
             <input style="margin-top:30px" type="submit" class="button button-medium button-primary" value="comprar bilhete">
           </a>
         </td>
