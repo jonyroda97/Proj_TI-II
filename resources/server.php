@@ -95,15 +95,16 @@ if(isset($_POST['sub'])){
     $query = "INSERT INTO dados (prim, ult, telm, morada, local, zip)
     VALUES('$prim', '$ult', '$telm', '$morada', '$local', '$zip')";
     mysqli_query($db, $query);
+    $_SESSION['prim'] = $prim;
+    $_SESSION['ult'] = $ult;
+    $_SESSION['telm'] = $telm;
+    $_SESSION['morada'] = $morada;
+    $_SESSION['local'] = $local;
+    $_SESSION['zip'] = $zip;
     header('location: inicio2.php');
   }
 
-  $_SESSION['prim'] = $prim;
-  $_SESSION['ult'] = $ult;
-  $_SESSION['telm'] = $telm;
-  $_SESSION['morada'] = $morada;
-  $_SESSION['local'] = $local;
-  $_SESSION['zip'] = $zip;
+
 
 }
 
