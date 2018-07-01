@@ -1,3 +1,15 @@
+<?php
+   include('resources/server.php');
+   $link = mysqli_connect("localhost", "root", "", "registration");
+
+
+   if($link === false){
+       die("Erro: nao foi possivel conectar a base de dados. " . mysqli_connect_error());
+   }
+   $sql2= "SELECT * FROM dados INNER JOIN users ON dados.cod = users.id AND `username` = '".$_SESSION['username']."' ";
+   $result = mysqli_query($link, $sql2)
+
+  ?>
 <html>
 <head>
 <style>
@@ -98,44 +110,78 @@ body{
           </ul>
       </nav>
     </header>
-    <?php
-    include('resources/server.php');
-    $link = mysqli_connect("localhost", "root", "", "registration");
+    <table align="center">
+  <tr>
 
-    // Check connection
-    if($link === false){
-        die("ERROR: Could not connect. " . mysqli_connect_error());
-    }
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+  Username
+  </td>
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+    Email
+  </td>
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+    Primeiro Nome
+  </td>
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+  Ultimo Nome
+  </td>
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+  morada
+  </td>
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+  Localidade
+  </td>
+  <td style="border:1px solid black;Font-size:18;Font-Weight:bold">
+  Codigo Postal
+  </td>
+  </tr>
+  <?php
+  while($row = mysqli_fetch_array($result))
+  {
+  ?>
+      <tr>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['username'];
+  ?>
+      </td>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['email'];
+  ?>
+      </td>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['prim'];
+  ?>
+      </td>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['ult'];
+  ?>
+      </td>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['morada'];
+  ?>
+      </td>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['local'];
+  ?>
+      </td>
+      <td style="border:1px solid black">
+  <?php
+      echo $row['zip'];
+  ?>
+      </td>
+      </tr>
+  <?php
+  }
+  ?>
+  </table>
 
-    // Attempt select query execution
-    $sql = "SELECT * FROM users WHERE  `username` = '".$_SESSION['username']."' ";
-    if($result = mysqli_query($link, $sql)){
-        if(mysqli_num_rows($result) > 0){
-            echo "<center><table>";
-                echo "<tr>";
 
-                    echo "<th>username</th>";
-                    echo "<th>email</th>";
-                echo "</tr>";
-            while($row = mysqli_fetch_array($result)){
-                echo "<tr>";
-                    
-                    echo "<td>" . $row['username'] . "</td>";
-                    echo "<td>" . $row['email'] . "</td>";
-                echo "</tr>";
-            }
-            echo "</center></table>";
-            // Free result set
-            mysqli_free_result($result);
-        } else{
-            echo "No records matching your query were found.";
-        }
-    } else{
-        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-    }
-
-    // Close connection
-    mysqli_close($link);
-    ?>
+</body>
 
 </html>
