@@ -29,11 +29,6 @@
           width: 104%;
       }
 
-      /* Dropdown button on hover & focus */
-      .dropbtn:hover, .dropbtn:focus {
-          background-color: #2980B9;
-      }
-
       .dropbtnoption {
         background-color: #2980B9;
       }
@@ -85,7 +80,7 @@
     	<h2>Confirmação de Compra</h2>
     </div>
 
-    <form method="post" action="inicio2.php">
+    <form method="post" action="inicio2.php" style="border-radius: 0px 0px 10px 10px">
       <div class="input-group">
     	  <label>Primeiro Nome</label>
     	  <input type="text" name="prim" disabled value="<?php echo $_SESSION['prim'];?>">
@@ -126,7 +121,7 @@
         </div>
       </div>
     	<div class="input-group">
-    	  <button type="submit" class="btn" name="sub">Submeter</button>
+    	  <button type="submit" class="btn" name="compra">Submeter</button>
     	</div>
     </form>
 

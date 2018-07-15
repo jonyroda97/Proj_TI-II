@@ -101,10 +101,10 @@ session_start();
     </header>
 
     <center>
-      <table border="2">
+      <table border="2" bgcolor="silver" cellpadding="20">
         <tr>
           <th>Username</th>
-          <td><?php echo $_SESSION['username'];?></td>
+          <td width="250"><?php echo $_SESSION['username'];?></td>
         </tr>
         <tr>
           <th>Email</th>
